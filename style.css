@@ -29,12 +29,15 @@
 .main-logo {
   position: relative;
   width: 100%;
+  text-align: center;
 }
+
 
 #main-logo-zot {
   font-family: 'Noto Sans SC', sans-serif;
   color: #fff;
   font-size: 65px;
+  
 }
 
 #main-logo-search {
@@ -45,14 +48,12 @@
 }
 
 
-
 .logo-container {
-  width: 50%;
+
   position: absolute;
   top: 22%;
   left: 50%;
-  transform: translate(-30%, -50%);
-  
+  transform: translate(-50%, -50%);
 }
 
 
@@ -108,7 +109,6 @@ button i {
   transform: translate(-50%, -50%);
 
 }
-
 
 
 /* 
