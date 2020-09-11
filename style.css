@@ -4,21 +4,47 @@
   box-sizing: border-box;
 }
 
-
-
 /* Navbar */
-#navbar ul li {
-  float: right;
+.zot-search-menu {
+  display: flex;
+  background: rgb(230, 230, 230);
+}
+.zot-logo {
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 13px;
+  margin-bottom: 6px;
+}
+
+.zot-logo img {
+  border-radius: 50%;
+  border: 7px solid #C3BDEA;
+}
+
+.about {
+  margin: 30px;
+  font-weight:400;
+  font-size: 1.2rem;
+  color: #585151;
+}
+
+.about:hover {
+  color: #C3BDEA;
+}
+
+
+.zot-search-menu li {
   list-style: none;
   font-family: 'Roboto', sans-serif;
-  padding: 15px 20px 0px 0px;
+  padding: 7px 12px 0px 0px;
   cursor: pointer;
 }
+
 /* Logo */
 .logo-heading {
   display: table;
   background-color: #585151;
-  padding: 14px 60px 14px 60px;
+  padding: 12px 50px 12px 50px;
   
   border-radius: 27px;
   font-size: 57px;
@@ -51,14 +77,11 @@
 .logo-container {
 
   position: absolute;
-  top: 22%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
-
-    
+ 
 /* Search Bar */
 .searchbar-button {
   width: 100%;
@@ -66,12 +89,10 @@
   display: flex;
 }
 
-
 /* remove outline */
 #search-bar, .button {
   outline: none;
 }
-
 
 #search-bar {
   width: 100%;
@@ -82,13 +103,8 @@
 
 }
 
-
-
-
-
 .button {
   border-radius: 0 25px 25px 0;
-  /* border-color: rgb(173, 144, 203); */
   border: none;
   padding: 10px;
   background-color: #BEBEBE;
@@ -104,44 +120,8 @@ button i {
 .search-container {
   width: 60%;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
 }
-
-
-/* 
-#navbar {
-  display: float;
-}
-
-#navbar ul li {
-  list-style: none;
-  cursor: pointer;
-}
-
-.search-container {
-  width: 500px;
-
-}
-
-input#search-bar {
-  width: 500px;
-  height: 45px;
-  padding: 0 20px;
-  font-size: 1rem;
-  border: 3px solid #71abab;
-  border-radius: 30px;
-
-
-}
-
-.fa-search {
-  position: relative;
-  float: right;
-  width: 75px;
-  height: 75px;
-  top: -32px;
-  right: -75px;
-} */
